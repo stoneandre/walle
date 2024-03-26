@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d29300;
+    height: 100vh;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    font-family: "Wallpoet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    /* margin: 0; */
+    /* padding: 0; */
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(236, 0, 0);
+}
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    /* background-color: #ff0000; */
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header div {
+    width: 100px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main {
+    /* background-color: #80009d; */
+    flex: 1 0 auto;
+}
+
+.hero {
+    background-color: #fff;
+    /* height: 50%; */
+    height: 300px;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 72px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.news div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+article {
+    width: 300px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.news article p{
+    text-align: justify;
+    margin-bottom: 24px;
+}
+.news article a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(236, 0, 0);
+}
+footer {
+    /* background-color: #219fff; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
