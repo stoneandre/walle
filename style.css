@@ -39,9 +39,12 @@ ul li a {
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 header {
@@ -88,12 +91,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 .news div {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    row-gap: 40px;
 }
 
 h2 {
@@ -131,4 +138,12 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+}
+@media (max-width:1000px){
+    .hero{
+        align-items: start;
+    }
+    h1{
+        font-size: 48px;
+    }
 }
